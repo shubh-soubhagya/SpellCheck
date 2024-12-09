@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#corrected-content {
+    background: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+#copy-btn {
+    margin-top: 10px;
+}
+
+#file-output {
+    margin-top: 15px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #218838;
+}
